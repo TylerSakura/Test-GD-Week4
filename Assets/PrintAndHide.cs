@@ -1,7 +1,8 @@
 using UnityEngine;
 
-public class ConsolePrint : MonoBehaviour
+public class PrintAndHide : MonoBehaviour
 {
+    public Renderer rend;
     private int counter = 3; 
 
     private void Update()
