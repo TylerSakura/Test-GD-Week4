@@ -17,9 +17,4 @@ public class LoadAssets : MonoBehaviour
         GameObject blueObjectInstance = Instantiate(blueObj, new Vector3(-2f, 0f, 0f), Quaternion.identity);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
